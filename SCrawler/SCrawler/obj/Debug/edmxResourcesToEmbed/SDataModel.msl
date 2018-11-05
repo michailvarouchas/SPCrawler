@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SCrawlerModelStoreContainer" CdmEntityContainer="SCrawlerEntities">
+    <EntitySetMapping Name="ExportedProperties">
+      <EntityTypeMapping TypeName="SCrawlerModel.ExportedProperties">
+        <MappingFragment StoreEntitySet="ExportedProperties">
+          <ScalarProperty Name="ExportedPropertyId" ColumnName="ExportedPropertyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
