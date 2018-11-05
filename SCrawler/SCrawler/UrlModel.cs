@@ -17,8 +17,8 @@ namespace SCrawler
             {
                 new UrlModel()
                 {
-                    Url = "https://www.spitogatos.gr/search/results/residential/sale/r101/m2103m",
-                    Name = "page1"
+                    Url = $"https://www.spitogatos.gr/search/results/residential/sale/r100/m100m101m102m103m104m2011m2015m2022m2025m2033m2036m2038m6001m6002m6003m",
+                    Name = ""
                 }
             };
         }

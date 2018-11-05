@@ -17,7 +17,7 @@ namespace SCrawler
         {
             string filePath = ConfigurationManager.AppSettings["filePath"];
             string dateStamp = DateTime.Now.ToString("yyyyMMddHmmssfff");
-            string fileName = @"\XECrawler" + urlModel.Name + dateStamp + @".xlsx";
+            string fileName = @"\SECrawler" + urlModel.Name + dateStamp + @".xlsx";
             using (ExcelPackage package = new ExcelPackage())
             {
                 ExcelWorksheet ws = package.Workbook.Worksheets.Add("Πωλήσεις");
